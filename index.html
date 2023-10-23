@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ecosta@codingdojo.la">
+    <title>Me gusta</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Barra de navegación -->
+        <div class="navbar">
+            <h1>Network</h1>
+        </div>
+
+        <!-- Título -->
+        <h2 class="titulo">Your Feed</h2>
+
+        <div class="row">
+
+            <!-- Columna 1 -->
+            <div class="col-1">
+                <div class="tarjeta-perfil">
+                    <img src="static/images/avatar.jpeg" alt="not found">
+                    <a href="#">Add an avatar</a>
+                    <p>James Doe</p>
+                </div>
+            </div>
+            <!-- Columna 2 -->
+            <div class="col-2">
+                <!-- Tarjeta 1 -->
+                <div class="tarjeta">
+                    <div class="tarjeta-info">
+                        <h3>Neil M</h3>
+                        <p><span id="like1">9</span> like(s)</p>
+                        <button onclick="darLike(1)">Like</button>
+                    </div>
+                    <p>
+                        I just set up this new discord bot, let me know what you all think. <a href="#">link</a>
+                    </p>
+                </div>
+
+                <!-- Tarjeta 2 -->
+                <div class="tarjeta">
+                    <div class="tarjeta-info">
+                        <h3>Nichole K</h3>
+                        <p><span id="like2">12</span> like(s)</p>
+                        <button onclick="darLike(2)">Like</button>
+                    </div>
+                    <p>
+                        Just finished my <a href="#">next comic</a>, check it out.
+                    </p>
+                </div>
+
+                <!-- Tarjeta 3 -->
+                <div class="tarjeta">
+                    <div class="tarjeta-info">
+                        <h3>Jim R</h3>
+                        <p><span id="like3">9</span> like(s)</p>
+                        <button onclick="darLike(3)">Like</button>
+                    </div>
+                    <p>
+                        I can't stop listening to the <a href="#">new album</a>. Who else is liking it?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
